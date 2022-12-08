@@ -20,13 +20,13 @@ const Work = () => {
         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="https://mc6hte.csb.app/" target="_blank" className="">
+            <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="">
               <div className="portfolio-wrap">
                 <img src={images.todo} className="img-fluid" alt="TODO website"/>
                 <div className="portfolio-info">
                   <h4>TODO</h4>
                   <div className="portfolio-links">
-                    <a href="https://mc6hte.csb.app/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                    <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
                   </div>
                 </div>
               </div>
@@ -35,14 +35,14 @@ const Work = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-          <a href="https://39qkir.csb.app/" target="_blank" className="">
+          <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="">
             <div className="portfolio-wrap">
               <img src={images.movie} className="img-fluid" alt="movie search app"/>
               <div className="portfolio-info">
                 <h4>MOVIE SEARCH</h4>
                 {/* <p>Coming Soon!</p> */}
                 <div className="portfolio-links">
-                <a href="https://39qkir.csb.app/" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Work = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap ">
               <div className="img-fluid"> 
-              <img src={images.quizzical} className="img-fluid blur" alt="Blurred out hero image of Quizzical"/>
+              <img src={images.quizzical} className="img-fluid blur" alt="Blurred out hero of Quizzical"/>
               </div>
               <div className="portfolio-info">
                 <h4>QUIZZICAL</h4>

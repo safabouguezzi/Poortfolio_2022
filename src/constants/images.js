@@ -27,7 +27,7 @@ import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/Pastel_Blue_logo.png';
 
-import myImage from '../assets/my_image.png';
+// import myImage from '../assets/my_image.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -50,11 +50,11 @@ import movie from '../assets/movie.PNG';
 import quizzical from '../assets/quizzical.webp';
 
 
-export default {
+const images = {
   quizzical,
   movie,
   todo,
-  myImage,
+  // myImage,
   logosHeader,
   reduxLogo,
   nodeLogo,
@@ -94,3 +94,5 @@ export default {
   skype,
   spotify,
 };
+
+export default images
