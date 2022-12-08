@@ -21,14 +21,15 @@ const Work = () => {
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
           <div className="portfolio-wrap">
-            <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="">
+            <a href="https://todo-modern.netlify.app/" rel="noreferrer" target="_blank" className="">
               
                 <img src={images.todo} className="img-fluid" alt="TODO website"/> </a>
                 <div className="portfolio-info">
-                  <h4>TODO</h4>
-                  <div className="portfolio-links">
-                    <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
-                  </div>
+                <a href="https://todo-modern.netlify.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><h4>TODO</h4></a>
+                <a href="https://github.com/safabouguezzi/Todo_app" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><h4>Source Code</h4></a>
+                  {/* <div className="portfolio-links">
+                    <a href="https://todo-modern.netlify.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
+                  </div> */}
                 </div>
               </div>
             
@@ -38,27 +39,32 @@ const Work = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
           
             <div className="portfolio-wrap">
-            <a href="https://todo-modern.netlify.app/" rel="noreferrer" target="_blank" className="">
+            <a href="https://movie-sea.netlify.app/" rel="noreferrer" target="_blank" className="">
               <img src={images.movie} className="img-fluid" alt="movie search app"/> </a>
               <div className="portfolio-info">
-                <h4>MOVIE SEARCH</h4>
-                {/* <p>Coming Soon!</p> */}
-                <div className="portfolio-links">
-                <a href="https://todo-modern.netlify.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
-                </div>
-              </div>
+              <a href="https://movie-sea.netlify.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><h4>MOVIES</h4></a>
+              <a href="https://github.com/safabouguezzi/movie_redux_pagination" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><h4>Source Code</h4></a>
+
+              
+
+                {/* <div className="portfolio-links">
+                 <a href="https://movie-sea.netlify.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
+                </div> */}
+              </div> 
             </div>
             
           </div>
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap ">
-              <div className="img-fluid"> 
+              <div className="img-fluid "> 
               <img src={images.quizzical} className="img-fluid blur" alt="Blurred out hero of Quizzical"/>
               </div>
-              <div className="portfolio-info">
+              <div className="portfolio-info comming-soon">
+                  
                 <h4>QUIZZICAL</h4>
-                <p>Coming Soon!</p>
+                <h4>Coming Soon!</h4>
+                  
                 <div className="portfolio-links">
                 </div>
               </div>
