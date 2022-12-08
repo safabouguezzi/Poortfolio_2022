@@ -1,0 +1,48 @@
+.app__skill {
+
+    min-height: 100vh;
+    background-color: var(--fourth-color);
+    margin: auto;
+
+    font-family: var(--font-base);
+
+    padding-top: 4rem ;
+    padding-bottom: 4rem;
+    margin: 0;
+    
+    
+}
+
+
+#container_skill {
+    width: 80% !important;
+    // max-width: 90% !important;
+}
+
+
+.count-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+h4 {
+    margin: 1rem;
+    text-align: center;
+    font-weight: 800 ;
+
+    color: var(--text-color);
+    
+}
+
+img {
+    width: 60px;
+    margin-right: 0 !important;
+    
+
+
+}
+
+}
+
