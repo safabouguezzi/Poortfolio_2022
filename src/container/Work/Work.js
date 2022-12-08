@@ -20,33 +20,35 @@ const Work = () => {
         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div className="portfolio-wrap">
             <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="">
-              <div className="portfolio-wrap">
-                <img src={images.todo} className="img-fluid" alt="TODO website"/>
+              
+                <img src={images.todo} className="img-fluid" alt="TODO website"/> </a>
                 <div className="portfolio-info">
                   <h4>TODO</h4>
                   <div className="portfolio-links">
-                    <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                    <a href="https://mc6hte.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
                   </div>
                 </div>
               </div>
-            </a>
+            
             
           </div>
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-          <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="">
+          
             <div className="portfolio-wrap">
-              <img src={images.movie} className="img-fluid" alt="movie search app"/>
+            <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="">
+              <img src={images.movie} className="img-fluid" alt="movie search app"/> </a>
               <div className="portfolio-info">
                 <h4>MOVIE SEARCH</h4>
                 {/* <p>Coming Soon!</p> */}
                 <div className="portfolio-links">
-                <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                <a href="https://39qkir.csb.app/" rel="noreferrer" target="_blank" className="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i className="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
-            </a>
+            
           </div>
 
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">

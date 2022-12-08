@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React  from 'react';
 
-import { images } from '../../constants';
 // import { AppWrap, MotionWrap } from '../../wrapper';
 // import { client } from '../../client';
 import './Footer.scss';
@@ -46,8 +45,8 @@ import './Footer.scss';
     </form>
 
     <footer>
-        <section class="foot"> 2022 © Developed by Safa Bouguezzi
-        <a href="https://github.com/safabouguezzi" target="_blank"> SB </a>
+        <section className="foot"> 2022 © Developed by Safa Bouguezzi
+        <a href="https://github.com/safabouguezzi" rel="noreferrer" target="_blank"> SB </a>
         </section>
           {/* Made with
             <span> ❤ </span>

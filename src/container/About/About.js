@@ -28,8 +28,8 @@ const About = () => {
           together! 😉
         </p>
         <br/>
-        <div class="container-txt-link">
-                  <a href="./#contact" class="u-line">
+        <div className="container-txt-link">
+                  <a href="./#contact" className="u-line">
                     get in touch!
                   </a>
                 </div>
