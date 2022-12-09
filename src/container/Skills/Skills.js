@@ -8,16 +8,16 @@ const Skills = () => {
   return (
     <div className='app__skill'>
 
-    <section id="skills" className="skills">
+    <section  className="skills">
       <div id="container_skill" className="container" data-aos="fade-up">
 
       <h2 className='app__head-text'>Ski<span>lls</span></h2>
 
         <div className="section-title">
-          <p className='app__about-text'>Here are some of the technologies I use on a day-to-day basis.</p>
+          <p className='app__about-text-center'>Here are some of the technologies I use on a day-to-day basis.</p>
         </div>
 
-        <div className="row">
+        <div id="skills" className="row ">
           <div className="col-lg-4 col-md-6">
             <div className="count-box">
               <img src={images.html} alt="HTML icon"/>

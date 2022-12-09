@@ -15,7 +15,8 @@
   --white-color: #ffffff;
   --text-color: #4A4C4D; 
   --underline-color: #394ff4;
-  --ligthblue-color: #B4CDF1;
+  --lightblue-color: #B4CDF1;
+  --highlight-color:  #b4cdf197;
 }
 
 * {

@@ -16,8 +16,10 @@
 
 #container_skill {
     width: 80% !important;
+    
     // max-width: 90% !important;
 }
+
 
 
 .count-box {
@@ -46,3 +48,16 @@ img {
 
 }
 
+.row {
+    width: 100% !important;
+}
+
+.app__about-text-center {
+    
+    line-height: 1.55;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    margin: 1.2em 0;
+
+}
