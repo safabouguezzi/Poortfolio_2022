@@ -6,7 +6,7 @@ import "./Header.scss"
 const Header = () => {
   const [index, setIndex] = useState(0);
 
-    let texts = [" coffee ☕", " chocolate (though I'm trying to cut back) 🍫", " books 📚", " cats 🐈"]
+    let texts = [" coffee ☕", " chocolate 🍫", " books 📚", " cats 🐈"]
     useEffect(() => {
       setTimeout(() => {
         let next = index + 1;

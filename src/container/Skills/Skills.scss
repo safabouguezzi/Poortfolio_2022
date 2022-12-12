@@ -1,7 +1,7 @@
 .app__skill {
 
     min-height: 100vh;
-    background-color: var(--fourth-color);
+    background-color: var(--primary-color);
     margin: auto;
 
     font-family: var(--font-base);
@@ -39,10 +39,12 @@ h4 {
 }
 
 img {
-    width: 60px;
+    width: 80px;
     margin-right: 0 !important;
     
-
+@media screen and (max-width: 750px) {
+    width: 100px;
+}
 
 }
 
